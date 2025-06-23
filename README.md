@@ -2,6 +2,8 @@
 
 This template creates an empty [devbox](https://www.jetify.com/docs/devbox/) project for use in vscode.
 
+https://github.com/user-attachments/assets/5737e02a-55ce-4120-b184-8b2966bdce2d
+
 ## Features
 
 * On startup, opens shells with aider and devbox, side-by-side.
