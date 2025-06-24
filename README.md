@@ -15,14 +15,14 @@ Install the following if not already on your machine:
 * [aider](https://aider.chat)
 * vscode extensions from `.vscode/extensions.json`
 
-# Project Setup
+## Project Setup
 
-## Aider (Console AI Agent)
+### Aider (Console AI Agent)
 
 * Add API keys to a `.env` file (see `.env.example`)
 * Add [model](https://aider.chat/docs/llms.html) to an `.aider-model` file (see `.aider-model.example`)
 
-# Usage
+## Usage
 
 1) Open your project in vscode
 2) cmd+shift+p, `Devbox: Reopen in Devbox shell environment`
