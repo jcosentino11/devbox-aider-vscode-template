@@ -5,7 +5,7 @@
                 {
                     "name": "aider",
                     "commands": [
-                        "aider --model ollama_chat/llama3.2 --no-auto-commits --cache-prompts --watch-files  --analytics-disable"
+                        "./run-aider.sh"
                     ]
                 },
                 {

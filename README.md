@@ -1,26 +1,31 @@
-# devbox-project-vscode-template
+# devbox-aider-vscode-template
 
-This template creates an empty [devbox](https://www.jetify.com/docs/devbox/) project for use in vscode.
+Template for new vscode projects that uses [devbox](https://www.jetify.com/docs/devbox/) for nix-based dependency management.
+
+Includes console integration with [aider](https://aider.chat) for easy LLM usage within the project window.
 
 https://github.com/user-attachments/assets/5737e02a-55ce-4120-b184-8b2966bdce2d
 
-## Features
 
-* On startup, opens shells with aider and devbox, side-by-side.
+## One-time setup
 
-## First-time setup
+Install the following if not already on your machine:
 
-Complete the following per machine:
+* [devbox](https://www.jetify.com/docs/devbox/)
+* [aider](https://aider.chat)
+* vscode extensions from `.vscode/extensions.json`
 
-* Install recommended vscode extensions defined in `.vscode/extensions.json`
-* Install [devbox](https://www.jetify.com/docs/devbox/)
-* Install [aider](https://aider.chat)
-* (optional) [ollama](https://ollama.com), for local LLM models
+# Project Setup
 
-## Customization
+## Aider (Console AI Agent)
 
-* Configure the local LLM model used by modifying the aider command in `.vscode/restore-terminals.json`
-    * make sure to download the model as well, `ollama pull llama3.2`
+* Add API keys to a `.env` file (see `.env.example`)
+* Add [model](https://aider.chat/docs/llms.html) to an `.aider-model` file (see `.aider-model.example`)
+
+# Usage
+
+1) Open your project in vscode
+2) cmd+shift+p, `Devbox: Reopen in Devbox shell environment`
 
 ## Helpful Docs
 
